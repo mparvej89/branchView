@@ -1,0 +1,58 @@
+{
+  "name": "brvapp_standard",
+  "version": "101.202.303",
+  "description": "BrancheView App Name",
+  "main": "index.js",
+  "devDependencies": {
+    "@ionic/v1-toolkit": "^1.0.0",
+    "cordova-android": "^10.1.2",
+    "cordova-plugin-ionic-keyboard": "^2.2.0",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-splashscreen": "^5.0.2",
+    "cordova-plugin-statusbar": "^2.4.2",
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "javascript-obfuscator": "^1.7.0",
+    "replace-in-file": "^6.1.0"
+  },
+  "scripts": {
+    "move:resources": "mv theme/resources resources",
+    "move:theme": "mv theme/app www/theme",
+    "move:done": "echo \"Moved files done\"",
+    "move:start": "npm run move:resources && npm run move:theme && npm run move:done",
+    "build:replace": "replace-in-file --configFile=replace.js --verbose",
+    "build:minify": "javascript-obfuscator www/js/index.js --output www/js/index.js",
+    "build:done": "echo \"files updated\"",
+    "build:start": "npm run build:replace && npm run build:minify && npm run build:done",
+    "cleanup:file1": "rm -f www/js/index.js.bak",
+    "cleanup:file2": "rm -f replace.js",
+    "cleanup:done": "echo \"CleanUp done\"",
+    "cleanup:start": "npm run cleanup:file1 && npm run cleanup:file2 && npm run cleanup:done",
+    "prepublish": "npm run move:start && npm run build:start && npm run cleanup:start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/yob_services/basis-ionic-build.git"
+  },
+  "author": "BrancheView",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/yob_services/basis-ionic-build#readme",
+  "dependencies": {
+    "cordova-plugin-device": "^2.1.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
