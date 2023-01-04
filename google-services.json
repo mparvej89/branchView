@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "410697592042",
+    "project_id": "yob-tasks-app",
+    "storage_bucket": "yob-tasks-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410697592042:android:97ad9781cc3e41b659fb93",
+        "android_client_info": {
+          "package_name": "com.brancheview.brvappdvl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410697592042-mnk3e79rftndd7iu0q6u994e37tfqt1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDoiG7e30G73hdtpnv0b08xuTfF8LzNAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410697592042-mnk3e79rftndd7iu0q6u994e37tfqt1f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "410697592042-u8fsgnc8uf5b3v5dvoipkhk10je11c3m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yob.task"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410697592042:android:3a3b6cd7da65d33c59fb93",
+        "android_client_info": {
+          "package_name": "com.task.yob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410697592042-mnk3e79rftndd7iu0q6u994e37tfqt1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDoiG7e30G73hdtpnv0b08xuTfF8LzNAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410697592042-mnk3e79rftndd7iu0q6u994e37tfqt1f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "410697592042-u8fsgnc8uf5b3v5dvoipkhk10je11c3m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yob.task"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410697592042:android:083be07a5d20758659fb93",
+        "android_client_info": {
+          "package_name": "com.yob.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410697592042-mnk3e79rftndd7iu0q6u994e37tfqt1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDoiG7e30G73hdtpnv0b08xuTfF8LzNAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410697592042-mnk3e79rftndd7iu0q6u994e37tfqt1f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "410697592042-u8fsgnc8uf5b3v5dvoipkhk10je11c3m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yob.task"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
