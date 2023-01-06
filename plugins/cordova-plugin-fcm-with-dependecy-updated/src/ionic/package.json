@@ -39,7 +39,7 @@
   ],
   "dependencies": {
     "@angular/core": "^10.0.3",
-    "@ionic-native/core": "^5.27.0",
+    "@ionic-native/core": "^5.36.0",
     "rxjs": "^6.6.0"
   },
   "devDependencies": {
