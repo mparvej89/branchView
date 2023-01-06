@@ -40,7 +40,7 @@
   "dependencies": {
     "@angular/core": "^10.0.3",
     "@ionic-native/core": "^5.27.0",
-    "rxjs": "^6.6.0"
+    "rxjs": "^6.6.7"
   },
   "devDependencies": {
     "@types/cordova": "0.0.34",
